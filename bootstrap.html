@@ -12,9 +12,13 @@
       .box{
         height: 200px;
       }
+      .content-1{
+        text-align: center;
+      }
     </style>
   </head>
   <body>
+
     <header>
       <div class="row justify-content-center align-items-center" style="background-color: chartreuse; margin-bottom: 40px;">
         <div class="col-4" style="text-align: center;">
@@ -22,7 +26,22 @@
         </div>
       </div>
     </header>
-    <div class="container">
+
+    <!--Background- text-->
+    <div class="bg-dark text-light content-1">Content</div>
+    <div class="bg-light text-danger content-1">Content</div>
+    <div class="bg-warning text-light content-1">Content</div>
+    <div class="bg-success text-light content-1">Content</div>
+    <div class="bg-danger text-light content-1">Content</div>
+
+    <!--Alert-->
+    <div class="alert alert-success mt-5">Başarili şekilde giriş.</div>
+    <div class="alert alert-danger">Başarisiz şekilde giriş.</div>
+    <div class="alert alert-primary">Sonraki aşamaya geçiş.</div>
+
+    <!--Buttons-->
+    <a href="#" class="btn btn-primary btn-lg">Button</a>
+    <div class="container my-5">
       <div class="row">
         <div class="box bg-danger col-md-2"></div>
         <div class="box bg-primary col-md-4"></div>
